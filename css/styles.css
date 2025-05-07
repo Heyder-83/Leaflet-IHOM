@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.typer {
+    font-size: 2em;
+    text-shadow: 0 0 10px #471ae988, 0 0 20px #010dbb81;
+    animation: brillo 2s ease-in-out infinite alternate;
+    margin: 10px 0;
+}
+
+@keyframes brillo {
+    from {
+        text-shadow: 0 0 5px #ffffff44, 0 0 10px #ffffff22;
+    }
+    to {
+        text-shadow: 0 0 20px #ffffffaa, 0 0 30px #ffffff55;
+    }
+}
+
+#mapa {
+    height: 400px;
+    width: 600px;
+    margin-top: 30px;
+    border: 2px solid #ffffff22;
+    box-shadow: 0 0 15px #ffffff22;
+    border-radius: 8px;
+}
